@@ -1,0 +1,175 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+.navbar .nav > li {
+  padding: 0 8px;
+}
+.header-caption h1 {
+  font-size: 50px;
+}
+.sticky.navbar .nav > li {
+  padding: 0 8px;
+}
+.portfolio-caption h3 {
+  font-size: 14px;
+}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ .navbar .nav > li {
+  padding: 0 5px;
+}
+.navbar-default .navbar-nav > li > a {
+  font-size: 12px;
+}
+.header-caption h1 {
+  font-size: 30px;
+}
+.sticky.navbar .nav > li {
+  padding: 0 5px;
+}
+.navbar-brand {
+  padding: 0 5px 0 15px;
+}
+.navbar-default .navbar-nav > li > a {
+  font-size: 11px;
+}
+.single-blog-box {
+  margin-bottom: 20px;
+}
+.service-content {
+  padding: 10px;
+}
+.service-content h3 {
+  font-size: 15px;
+  margin: 15px 0;
+}
+.service-content:hover::before, .service-active::before {
+  left: 5px;
+  top: 5px;
+}
+.service-content:hover::after, .service-active::after {
+  bottom: 5px;
+  right: 5px;
+}
+.counter-icon {
+  margin-bottom: 10px;
+}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+nav.navbar.navbar-default.navbar-fixed-top {
+    padding: 5px 0px;
+} 
+.navbar-default .navbar-nav>li>a {
+    text-align: center;
+}    
+
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}    
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}   
+.header-caption {
+  padding-bottom: 100px;
+  padding-top: 110px;
+  text-align: center;
+}
+.header-caption h1 {
+  font-size: 50px;
+}
+.section-padding {
+    padding: 60px 0;
+}    
+.section-title p {
+  margin: 15px auto 40px;
+  width: 70%;
+}
+.section-title {
+    margin-bottom: 70px;
+}    
+   
+
+.about-content h3 {
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}    
+ul.portfolio li {
+    margin: 6px;
+}    
+.single-counter {
+    margin: 10px 0;
+}  
+.single-team-item {
+    padding-bottom: 20px;
+}    
+
+.single-pricing-box {
+    margin: 20px 0px;
+}    
+.single-pricing-box.active {
+    margin-top: 0px;
+    padding-bottom: 40px;
+}  
+.single-blog-box {
+    border: 1px solid #ddd;
+    margin: 20px 0px;
+}
+    
+.footer-single-contact {
+    margin: 20px 0;
+}  
+.header-caption h1 {
+  font-size: 32px;
+}
+.trestimonial-dec h2 {
+  margin-top: 25px;
+}
+.portfolio-caption h3 {
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+.video-section h3 {
+  font-size: 40px;
+}
+.slider-title h2, .video-title h2 {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+      
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+nav.navbar.navbar-default.navbar-fixed-top {
+    padding: 5px 0px;
+}    
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}    
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.header-caption h1 {
+  font-size: 32px;
+}
+.trestimonial-dec h2 {
+  margin-top: 25px;
+}
+.portfolio-caption h3 {
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+.video-section h3 {
+  font-size: 40px;
+}
+.slider-title h2, .video-title h2 {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+#about-us {
+  text-align: center;
+}
+
+}
